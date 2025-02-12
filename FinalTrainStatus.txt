@@ -1,0 +1,796 @@
+$ $ $ TRAIN MOVEMENT SIMULATION BEGINS........... $ $ $
+*************
+Train 14 is on permanent hold and cannot be dispatched.
+*************
+Train 11: Attempting to acquire locks [4, 3, 1]
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 10: Attempting to acquire locks [1, 3, 4]
+Train 13: Attempting to acquire locks [1, 3, 5]
+Train 13 unable to proceed, releasing locks and waiting...
+Train 10: HOLDS LOCK on Switch 1
+Train 10: HOLDS LOCK on Switch 3
+Train 12: HOLDS LOCK on Switch 5
+Train 10: Releasing lock on Switch 1
+Train 11: HOLDS LOCK on Switch 4
+Train 12: Releasing lock on Switch 5
+Train 10: Releasing lock on Switch 3
+Train 11: HOLDS LOCK on Switch 3
+Train 12 unable to proceed, releasing locks and waiting...
+Train 10 unable to proceed, releasing locks and waiting...
+Train 11: HOLDS LOCK on Switch 1
+Train 11: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24: HOLDS LOCK on Switch 5
+Train 24: Releasing lock on Switch 5
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22 unable to proceed, releasing locks and waiting...
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 24 unable to proceed, releasing locks and waiting...
+Train 13: Attempting to acquire locks [1, 3, 5]
+Train 13 unable to proceed, releasing locks and waiting...
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 10: Attempting to acquire locks [1, 3, 4]
+Train 12: HOLDS LOCK on Switch 5
+Train 10 unable to proceed, releasing locks and waiting...
+Train 12: Releasing lock on Switch 5
+Train 12 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 15 unable to proceed, releasing locks and waiting...
+Train 21 unable to proceed, releasing locks and waiting...
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24: HOLDS LOCK on Switch 5
+Train 24: Releasing lock on Switch 5
+Train 24 unable to proceed, releasing locks and waiting...
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 16 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 23 unable to proceed, releasing locks and waiting...
+Train 11: Unlocks/releases lock on Switch 4
+Train 13: Attempting to acquire locks [1, 3, 5]
+Train 11: Unlocks/releases lock on Switch 3
+Train 11: Unlocks/releases lock on Switch 1
+Train 13 unable to proceed, releasing locks and waiting...
+@ @ @ TRAIN 11: DISPATCHED @ @ @
+Train 10: Attempting to acquire locks [1, 3, 4]
+Train 10: HOLDS LOCK on Switch 1
+Train 10: HOLDS LOCK on Switch 3
+Train 10: HOLDS LOCK on Switch 4
+Train 10: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 12: HOLDS LOCK on Switch 5
+Train 12: Releasing lock on Switch 5
+Train 12 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 21 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23 unable to proceed, releasing locks and waiting...
+Train 25 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 24 unable to proceed, releasing locks and waiting...
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 17 unable to proceed, releasing locks and waiting...
+Train 15 unable to proceed, releasing locks and waiting...
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 13: Attempting to acquire locks [1, 3, 5]
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 13 unable to proceed, releasing locks and waiting...
+Train 12: HOLDS LOCK on Switch 5
+Train 12: Releasing lock on Switch 5
+Train 12 unable to proceed, releasing locks and waiting...
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24: HOLDS LOCK on Switch 5
+Train 24: Releasing lock on Switch 5
+Train 24 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20 unable to proceed, releasing locks and waiting...
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23 unable to proceed, releasing locks and waiting...
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 25 unable to proceed, releasing locks and waiting...
+Train 19: Releasing lock on Switch 5
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 18: HOLDS LOCK on Switch 5
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 17 unable to proceed, releasing locks and waiting...
+Train 22: HOLDS LOCK on Switch 2
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 10: Unlocks/releases lock on Switch 1
+Train 10: Unlocks/releases lock on Switch 3
+Train 10: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 10: DISPATCHED @ @ @
+Train 13: Attempting to acquire locks [1, 3, 5]
+Train 13: HOLDS LOCK on Switch 1
+Train 13: HOLDS LOCK on Switch 3
+Train 13: HOLDS LOCK on Switch 5
+Train 13: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 12 unable to proceed, releasing locks and waiting...
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23: HOLDS LOCK on Switch 4
+Train 23: Releasing lock on Switch 4
+Train 23 unable to proceed, releasing locks and waiting...
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 25 unable to proceed, releasing locks and waiting...
+Train 16 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24 unable to proceed, releasing locks and waiting...
+Train 12 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 20: HOLDS LOCK on Switch 2
+Train 23: HOLDS LOCK on Switch 4
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 23: Releasing lock on Switch 4
+Train 23 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18 unable to proceed, releasing locks and waiting...
+Train 13: Unlocks/releases lock on Switch 1
+Train 13: Unlocks/releases lock on Switch 3
+Train 13: Unlocks/releases lock on Switch 5
+@ @ @ TRAIN 13: DISPATCHED @ @ @
+Train 12: Attempting to acquire locks [5, 3, 1]
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 12: HOLDS LOCK on Switch 5
+Train 12: HOLDS LOCK on Switch 3
+Train 12: HOLDS LOCK on Switch 1
+Train 24 unable to proceed, releasing locks and waiting...
+Train 12: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23: HOLDS LOCK on Switch 4
+Train 23: Releasing lock on Switch 4
+Train 23 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 15 unable to proceed, releasing locks and waiting...
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24 unable to proceed, releasing locks and waiting...
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: HOLDS LOCK on Switch 4
+Train 23: Releasing lock on Switch 4
+Train 23 unable to proceed, releasing locks and waiting...
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 22: HOLDS LOCK on Switch 2
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 12: Unlocks/releases lock on Switch 5
+Train 12: Unlocks/releases lock on Switch 3
+Train 12: Unlocks/releases lock on Switch 1
+@ @ @ TRAIN 12: DISPATCHED @ @ @
+Train 24: Attempting to acquire locks [5, 3, 1]
+Train 24: HOLDS LOCK on Switch 5
+Train 24: HOLDS LOCK on Switch 3
+Train 24: HOLDS LOCK on Switch 1
+Train 24: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 20: HOLDS LOCK on Switch 2
+Train 23: HOLDS LOCK on Switch 4
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 23: Releasing lock on Switch 4
+Train 23 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 16: HOLDS LOCK on Switch 2
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 20: HOLDS LOCK on Switch 2
+Train 23: HOLDS LOCK on Switch 4
+Train 23: Releasing lock on Switch 4
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 23 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 18 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 24: Unlocks/releases lock on Switch 5
+Train 24: Unlocks/releases lock on Switch 3
+Train 24: Unlocks/releases lock on Switch 1
+@ @ @ TRAIN 24: DISPATCHED @ @ @
+Train 23: Attempting to acquire locks [4, 3, 5]
+Train 23: HOLDS LOCK on Switch 4
+Train 23: HOLDS LOCK on Switch 3
+Train 23: HOLDS LOCK on Switch 5
+Train 23: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17: HOLDS LOCK on Switch 1
+Train 17: Releasing lock on Switch 1
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 17 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20: HOLDS LOCK on Switch 2
+Train 20: Releasing lock on Switch 2
+Train 20 unable to proceed, releasing locks and waiting...
+Train 22 unable to proceed, releasing locks and waiting...
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17: HOLDS LOCK on Switch 1
+Train 17: Releasing lock on Switch 1
+Train 17 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 23: Unlocks/releases lock on Switch 4
+Train 23: Unlocks/releases lock on Switch 3
+Train 23: Unlocks/releases lock on Switch 5
+@ @ @ TRAIN 23: DISPATCHED @ @ @
+Train 20: Attempting to acquire locks [2, 3, 4]
+Train 20: HOLDS LOCK on Switch 2
+Train 20: HOLDS LOCK on Switch 3
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17: HOLDS LOCK on Switch 1
+Train 17: Releasing lock on Switch 1
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22 unable to proceed, releasing locks and waiting...
+Train 20: HOLDS LOCK on Switch 4
+Train 20: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 17 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 17 unable to proceed, releasing locks and waiting...
+Train 15 unable to proceed, releasing locks and waiting...
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 20: Unlocks/releases lock on Switch 2
+Train 20: Unlocks/releases lock on Switch 3
+Train 20: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 20: DISPATCHED @ @ @
+Train 17: Attempting to acquire locks [1, 3, 4]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 17: HOLDS LOCK on Switch 1
+Train 17: HOLDS LOCK on Switch 3
+Train 17: HOLDS LOCK on Switch 4
+Train 17: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 22: HOLDS LOCK on Switch 2
+Train 22: Releasing lock on Switch 2
+Train 22 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 15: HOLDS LOCK on Switch 2
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Releasing lock on Switch 2
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: Releasing lock on Switch 2
+Train 16 unable to proceed, releasing locks and waiting...
+Train 17: Unlocks/releases lock on Switch 1
+Train 17: Unlocks/releases lock on Switch 3
+Train 17: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 17: DISPATCHED @ @ @
+Train 22: Attempting to acquire locks [2, 3, 4]
+Train 22: HOLDS LOCK on Switch 2
+Train 22: HOLDS LOCK on Switch 3
+Train 22: HOLDS LOCK on Switch 4
+Train 22: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 22: Unlocks/releases lock on Switch 2
+Train 22: Unlocks/releases lock on Switch 3
+Train 22: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 22: DISPATCHED @ @ @
+Train 16: Attempting to acquire locks [2, 3, 4]
+Train 16: HOLDS LOCK on Switch 2
+Train 16: HOLDS LOCK on Switch 3
+Train 16: HOLDS LOCK on Switch 4
+Train 16: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 15 unable to proceed, releasing locks and waiting...
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 18: HOLDS LOCK on Switch 5
+Train 25: HOLDS LOCK on Switch 1
+Train 18: Releasing lock on Switch 5
+Train 25: Releasing lock on Switch 1
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 16: Unlocks/releases lock on Switch 2
+Train 16: Unlocks/releases lock on Switch 3
+Train 16: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 16: DISPATCHED @ @ @
+Train 15: Attempting to acquire locks [2, 3, 4]
+Train 15: HOLDS LOCK on Switch 2
+Train 15: HOLDS LOCK on Switch 3
+Train 15: HOLDS LOCK on Switch 4
+Train 15: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 18 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: Releasing lock on Switch 5
+Train 19 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: Releasing lock on Switch 5
+Train 25: HOLDS LOCK on Switch 1
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25: Releasing lock on Switch 1
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21 unable to proceed, releasing locks and waiting...
+Train 15: Unlocks/releases lock on Switch 2
+Train 15: Unlocks/releases lock on Switch 3
+Train 15: Unlocks/releases lock on Switch 4
+@ @ @ TRAIN 15: DISPATCHED @ @ @
+Train 19: Attempting to acquire locks [5, 3, 1]
+Train 19: HOLDS LOCK on Switch 5
+Train 19: HOLDS LOCK on Switch 3
+Train 19: HOLDS LOCK on Switch 1
+Train 19: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 18 unable to proceed, releasing locks and waiting...
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 19: Unlocks/releases lock on Switch 5
+Train 19: Unlocks/releases lock on Switch 3
+Train 19: Unlocks/releases lock on Switch 1
+@ @ @ TRAIN 19: DISPATCHED @ @ @
+Train 18: Attempting to acquire locks [5, 3, 1]
+Train 18: HOLDS LOCK on Switch 5
+Train 18: HOLDS LOCK on Switch 3
+Train 18: HOLDS LOCK on Switch 1
+Train 18: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 18: Unlocks/releases lock on Switch 5
+Train 18: Unlocks/releases lock on Switch 3
+Train 18: Unlocks/releases lock on Switch 1
+@ @ @ TRAIN 18: DISPATCHED @ @ @
+Train 25: Attempting to acquire locks [1, 3, 5]
+Train 25: HOLDS LOCK on Switch 1
+Train 25: HOLDS LOCK on Switch 3
+Train 25: HOLDS LOCK on Switch 5
+Train 25: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: Releasing lock on Switch 4
+Train 21 unable to proceed, releasing locks and waiting...
+Train 25: Unlocks/releases lock on Switch 1
+Train 25: Unlocks/releases lock on Switch 3
+Train 25: Unlocks/releases lock on Switch 5
+@ @ @ TRAIN 25: DISPATCHED @ @ @
+Train 21: Attempting to acquire locks [4, 3, 2]
+Train 21: HOLDS LOCK on Switch 4
+Train 21: HOLDS LOCK on Switch 3
+Train 21: HOLDS LOCK on Switch 2
+Train 21: HOLDS ALL NEEDED SWITCH LOCKS – Train movement begins.
+Train 21: Unlocks/releases lock on Switch 4
+Train 21: Unlocks/releases lock on Switch 3
+Train 21: Unlocks/releases lock on Switch 2
+@ @ @ TRAIN 21: DISPATCHED @ @ @
+$ $ $ SIMULATION ENDS $ $ $
+
+Final Train Status:
+Train 14 | Inbound: 4 | Outbound: 2 | Status: Permanent Hold
+Train 11 | Inbound: 5 | Switches: [4, 3, 1] | Outbound: 1 | Status: Dispatched
+Train 10 | Inbound: 1 | Switches: [1, 3, 4] | Outbound: 5 | Status: Dispatched
+Train 13 | Inbound: 2 | Switches: [1, 3, 5] | Outbound: 8 | Status: Dispatched
+Train 12 | Inbound: 8 | Switches: [5, 3, 1] | Outbound: 2 | Status: Dispatched
+Train 24 | Inbound: 8 | Switches: [5, 3, 1] | Outbound: 2 | Status: Dispatched
+Train 23 | Inbound: 6 | Switches: [4, 3, 5] | Outbound: 8 | Status: Dispatched
+Train 20 | Inbound: 3 | Switches: [2, 3, 4] | Outbound: 6 | Status: Dispatched
+Train 17 | Inbound: 1 | Switches: [1, 3, 4] | Outbound: 5 | Status: Dispatched
+Train 22 | Inbound: 4 | Switches: [2, 3, 4] | Outbound: 5 | Status: Dispatched
+Train 16 | Inbound: 4 | Switches: [2, 3, 4] | Outbound: 6 | Status: Dispatched
+Train 15 | Inbound: 3 | Switches: [2, 3, 4] | Outbound: 6 | Status: Dispatched
+Train 19 | Inbound: 8 | Switches: [5, 3, 1] | Outbound: 1 | Status: Dispatched
+Train 18 | Inbound: 8 | Switches: [5, 3, 1] | Outbound: 2 | Status: Dispatched
+Train 25 | Inbound: 2 | Switches: [1, 3, 5] | Outbound: 8 | Status: Dispatched
+Train 21 | Inbound: 5 | Switches: [4, 3, 2] | Outbound: 4 | Status: Dispatched
